@@ -8,5 +8,20 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/All Items Prova1/Prova1.unity
     guid: abe94fa7312afb944836aa04a8d671d9
+  - enabled: 1
+    path: Assets/Scenes/All Items Prova1/LevelEN 1.unity
+    guid: fd00aa7d536ef8e4f941cb563cb7a6b7
+  - enabled: 1
+    path: Assets/Scenes/All Items Prova1/LevelEN 2.unity
+    guid: 26f9321d3acb9274e9e0f16cf47fa631
+  - enabled: 1
+    path: Assets/Scenes/All Items Prova1/LevelEN 4.unity
+    guid: 54b3d074aed863c4cae50349ef175848
+  - enabled: 1
+    path: Assets/Scenes/All Items Prova1/LevelEN 3.unity
+    guid: ad9a78cb72dc0fb4e8594b5564ea2a75
+  - enabled: 1
+    path: Assets/Scenes/All Items Prova1/LevelEN 5.unity
+    guid: 599b981f653cc1143af5da98669acb93
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}

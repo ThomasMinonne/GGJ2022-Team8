@@ -7,9 +7,6 @@ public class CorrectCell : MonoBehaviour
 {
     public bool isCorrect = false;
 	public bool isColliding = false;
-	public bool winningCell = false;
-	public Animator anim;
-	
     // Update is called once per frame
     void Update()
     {
@@ -20,17 +17,11 @@ public class CorrectCell : MonoBehaviour
 		if(isCorrect == false){	
 			Debug.Log("MORTO");
 			//Si chiama l'animazione di morte
-			anim.SetBool("Death", true);
-			StartCoroutine(waitUntilDeath());
+			Loosing parentScript = this.transform.parent.GetComponent<Loosing>();
+			parentScript.Death();
 		}
 		if(isCorrect == true){	
 			Debug.Log("Bravissimo");
 		}
-	}
-	
-	IEnumerator waitUntilDeath(){
-		yield return new WaitForSeconds(1);
-		Scene scene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(scene.name);
 	}
 }
