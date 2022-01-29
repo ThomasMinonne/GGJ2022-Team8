@@ -223,7 +223,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: LOOSE
+  m_text: LOSE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f7639ff5cfc7d4349aea5a3da60464c3, type: 2}
   m_sharedMaterial: {fileID: 7361801486519155698, guid: f7639ff5cfc7d4349aea5a3da60464c3, type: 2}
@@ -232,7 +232,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
+    rgba: 0
   m_fontColor: {r: 0, g: 0, b: 0, a: 0}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -325,7 +325,7 @@ GameObject:
   - component: {fileID: 2758624998769410192}
   - component: {fileID: 2758624998769410195}
   m_Layer: 5
-  m_Name: LooseCanvas
+  m_Name: LoseCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

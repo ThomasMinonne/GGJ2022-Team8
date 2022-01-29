@@ -16,7 +16,7 @@ public class Loosing : MonoBehaviour
 				SceneManager.LoadScene(0);
 			}
 			else if(Input.GetKeyDown(KeyCode.Space)){
-				int index = Random.Range(1,4);
+				int index = Random.Range(0,18);
 				SceneManager.LoadScene(index);
 			}
 		}
