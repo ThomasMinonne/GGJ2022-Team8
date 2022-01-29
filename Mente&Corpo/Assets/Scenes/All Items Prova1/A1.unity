@@ -505,7 +505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 0
+  isCorrect: 1
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
@@ -633,7 +633,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 1
+  isCorrect: 0
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
@@ -761,7 +761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 0
+  isCorrect: 1
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
@@ -1017,7 +1017,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 1
+  isCorrect: 0
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
@@ -1145,7 +1145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 0
+  isCorrect: 1
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
@@ -1401,7 +1401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 1
+  isCorrect: 0
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
@@ -1657,7 +1657,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 0
+  isCorrect: 1
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
@@ -2302,7 +2302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 1
+  isCorrect: 0
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
@@ -2627,7 +2627,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 1
+  isCorrect: 0
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
@@ -2755,7 +2755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 0
+  isCorrect: 1
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
@@ -3011,7 +3011,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 1
+  isCorrect: 0
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
@@ -3099,7 +3099,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: dfa78b40ba5252b4896de5e618d1d410, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12.47
+      value: 36.53
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: dfa78b40ba5252b4896de5e618d1d410, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3204,7 +3204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 0
+  isCorrect: 1
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
@@ -3332,7 +3332,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 0
+  isCorrect: 1
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
@@ -3588,7 +3588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 1
+  isCorrect: 0
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
@@ -3994,7 +3994,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 1
+  isCorrect: 0
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
@@ -4122,7 +4122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 1
+  isCorrect: 0
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
@@ -4250,7 +4250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 1
+  isCorrect: 0
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
@@ -4383,7 +4383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 1
+  isCorrect: 0
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
@@ -4511,7 +4511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 0
+  isCorrect: 1
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
@@ -5010,7 +5010,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 1
+  isCorrect: 0
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
@@ -5522,7 +5522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 0
+  isCorrect: 1
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
@@ -5650,7 +5650,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 1
+  isCorrect: 0
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
@@ -5858,7 +5858,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 1
+  isCorrect: 0
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
@@ -5986,7 +5986,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 1
+  isCorrect: 0
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
@@ -6439,7 +6439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 1
+  isCorrect: 0
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
@@ -6823,7 +6823,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 0
+  isCorrect: 1
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
@@ -7542,7 +7542,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 0
+  isCorrect: 1
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
@@ -7798,7 +7798,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 0
+  isCorrect: 1
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
@@ -8041,7 +8041,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 0
+  isCorrect: 1
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
@@ -8425,7 +8425,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 0
+  isCorrect: 1
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
@@ -8618,7 +8618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f104e5b7a9b5edf4b83dd2c5c957fa3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 0
+  isCorrect: 1
   isColliding: 0
   winningCell: 0
   anim: {fileID: 1608706787}
