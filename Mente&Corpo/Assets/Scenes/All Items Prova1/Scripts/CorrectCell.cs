@@ -14,6 +14,7 @@ public class CorrectCell : MonoBehaviour
     }
 	void OnTriggerEnter(){
 		isColliding = true;
+		Debug.Log ("parent is:" + transform.parent.name);
 		if(isCorrect == false){	
 			Debug.Log("MORTO");
 			//Si chiama l'animazione di morte
