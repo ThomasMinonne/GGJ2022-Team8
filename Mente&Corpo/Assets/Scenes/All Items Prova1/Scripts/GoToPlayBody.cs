@@ -9,7 +9,7 @@ public class GoToPlayBody : MonoBehaviour
     void Update()
     {
         if(Input.anyKey){ 
-			int index = Random.Range(2,19);
+			int index = Random.Range(2,20);
 			SceneManager.LoadScene(index);
 		}
     }
