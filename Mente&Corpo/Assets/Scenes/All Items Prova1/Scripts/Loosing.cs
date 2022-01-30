@@ -9,6 +9,7 @@ public class Loosing : MonoBehaviour
 	public GameObject player;
 	public GameObject timer;
 	public Animator anim;
+	public Animator music;
 	private bool finished = false;
 	
     void Update(){
@@ -32,6 +33,7 @@ public class Loosing : MonoBehaviour
 	}
 	
 	IEnumerator waitUntilDeath(){
+		music.SetBool("StopMusic", true);
 		yield return new WaitForSeconds(3);
 		finished = true;
 	}

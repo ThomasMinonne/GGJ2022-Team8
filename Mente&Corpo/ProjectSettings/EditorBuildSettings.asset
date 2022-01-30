@@ -62,5 +62,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/All Items Prova1/V5.unity
     guid: ea62ef5a9b44edf41a84133deba5005c
+  - enabled: 1
+    path: Assets/Scenes/All Items Prova1/V6.unity
+    guid: 1bf5ac31f09d32141ad497e0275d0f9f
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
