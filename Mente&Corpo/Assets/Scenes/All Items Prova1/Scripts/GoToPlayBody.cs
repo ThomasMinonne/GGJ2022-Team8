@@ -8,8 +8,9 @@ public class GoToPlayBody : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.anyKey){ 
-			int index = Random.Range(2,20);
+        if(Input.anyKey){
+            Cursor.SetCursor(null, Vector3.zero, CursorMode.ForceSoftware);
+            int index = Random.Range(2,20);
 			SceneManager.LoadScene(index);
 		}
     }
