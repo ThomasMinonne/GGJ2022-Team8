@@ -10128,6 +10128,7 @@ GameObject:
   - component: {fileID: 1564888997}
   - component: {fileID: 1564888996}
   - component: {fileID: 1564888998}
+  - component: {fileID: 1564888999}
   m_Layer: 0
   m_Name: Grid
   m_TagString: Untagged
@@ -10245,6 +10246,20 @@ MonoBehaviour:
   timer: {fileID: 895331512}
   anim: {fileID: 1989813226}
   music: {fileID: 1994866830}
+--- !u!114 &1564888999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564888995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9753c96342e7db4ab973dd90c46fdb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 748253015}
+  myPrefab: {fileID: 6826270496536892660, guid: b9a8ba90772a76f47b409f179305e411, type: 3}
 --- !u!1 &1579839265
 GameObject:
   m_ObjectHideFlags: 0

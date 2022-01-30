@@ -4878,7 +4878,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5538842777448760741, guid: 402f794ef68bfdd4aa0391aa7945fde0, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5538842777448760741, guid: 402f794ef68bfdd4aa0391aa7945fde0, type: 3}
       propertyPath: m_AnchorMax.x
@@ -5713,7 +5713,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &922663277
 GameObject:
@@ -9290,7 +9290,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1450604125
 GameObject:
@@ -10424,6 +10424,7 @@ GameObject:
   - component: {fileID: 1564888997}
   - component: {fileID: 1564888996}
   - component: {fileID: 1564888998}
+  - component: {fileID: 1564888999}
   m_Layer: 0
   m_Name: Grid
   m_TagString: Untagged
@@ -10522,7 +10523,7 @@ Transform:
   - {fileID: 1085428517}
   - {fileID: 1054361977}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1564888998
 MonoBehaviour:
@@ -10541,6 +10542,20 @@ MonoBehaviour:
   timer: {fileID: 895331512}
   anim: {fileID: 780095409}
   music: {fileID: 937985399}
+--- !u!114 &1564888999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564888995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9753c96342e7db4ab973dd90c46fdb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 889277485}
+  myPrefab: {fileID: 6826270496536892660, guid: b9a8ba90772a76f47b409f179305e411, type: 3}
 --- !u!1 &1573752133
 GameObject:
   m_ObjectHideFlags: 0

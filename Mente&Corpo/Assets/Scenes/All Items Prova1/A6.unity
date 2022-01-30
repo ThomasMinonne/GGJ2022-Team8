@@ -2689,7 +2689,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &364547173
 GameObject:
@@ -9415,7 +9415,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8063073397250431797, guid: f0271df749728104eac22c3d897fd8ce, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8063073397250431797, guid: f0271df749728104eac22c3d897fd8ce, type: 3}
       propertyPath: m_LocalScale.x
@@ -10359,6 +10359,7 @@ GameObject:
   - component: {fileID: 1564888997}
   - component: {fileID: 1564888996}
   - component: {fileID: 1564888998}
+  - component: {fileID: 1564888999}
   m_Layer: 0
   m_Name: Grid
   m_TagString: Untagged
@@ -10457,7 +10458,7 @@ Transform:
   - {fileID: 1085428517}
   - {fileID: 1054361977}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1564888998
 MonoBehaviour:
@@ -10476,6 +10477,20 @@ MonoBehaviour:
   timer: {fileID: 895331512}
   anim: {fileID: 1062895187}
   music: {fileID: 874787996}
+--- !u!114 &1564888999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564888995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9753c96342e7db4ab973dd90c46fdb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 806845530}
+  myPrefab: {fileID: 6826270496536892660, guid: b9a8ba90772a76f47b409f179305e411, type: 3}
 --- !u!1001 &1626971251
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11559,7 +11574,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 53.775, y: 79.447, z: 76.448}
 --- !u!1 &1813513154
 GameObject:
