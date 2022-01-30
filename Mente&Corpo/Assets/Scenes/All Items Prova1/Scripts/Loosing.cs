@@ -8,15 +8,18 @@ public class Loosing : MonoBehaviour
 	public GameObject myPrefab;
 	public GameObject player;
 	public GameObject timer;
+	public Animator anim;
 	private bool finished = false;
 	
     void Update(){
 		if(finished){
 			if(Input.GetKeyDown(KeyCode.Escape)){
+				StartCoroutine(fading());
 				SceneManager.LoadScene(0);
 			}
 			else if(Input.GetKeyDown(KeyCode.Space)){
-				int index = Random.Range(0,18);
+				int index = Random.Range(2,19);
+				StartCoroutine(fading());
 				SceneManager.LoadScene(index);
 			}
 		}
@@ -31,5 +34,10 @@ public class Loosing : MonoBehaviour
 	IEnumerator waitUntilDeath(){
 		yield return new WaitForSeconds(3);
 		finished = true;
+	}
+	
+	IEnumerator fading(){
+		anim.SetBool("FADE", true);
+		yield return new WaitForSeconds(1);
 	}
 }

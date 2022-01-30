@@ -9,7 +9,7 @@ public class Timer : MonoBehaviour
     public float timeRemaining = 10;
     public bool timerIsRunning = false;
 	public Text timeText;
-	public Animator anim;
+	public Loosing death;
 	
     private void Start()
     {
@@ -31,10 +31,7 @@ public class Timer : MonoBehaviour
                 Debug.Log("Time has run out!");
                 timeRemaining = 0;
                 timerIsRunning = false;
-				//Si chiama l'animazione di morte
-				anim.SetBool("Death", true);
-				//Reload del livello
-				StartCoroutine(waitUntilDeath());
+				death.Death();
             }
         }
     }
@@ -48,10 +45,4 @@ public class Timer : MonoBehaviour
 		
 		timeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
-	
-	IEnumerator waitUntilDeath(){
-		yield return new WaitForSeconds(1);
-		Scene scene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(scene.name);
-	}
 }
