@@ -27,6 +27,7 @@ public class PauseGame : MonoBehaviour
 			}
 			if(!paused){
 				toDestroy = Instantiate(myPrefab, new Vector3(0, 0, 0), Quaternion.identity);
+				player.GetComponent<CharacterController>().enabled = false;
 				//pauseManager.SetActive(true);
 				paused = true;
 			}
@@ -35,6 +36,7 @@ public class PauseGame : MonoBehaviour
 		if(Input.GetKeyDown(KeyCode.Space)){
 			if(paused){
 				Destroy(toDestroy);
+				player.GetComponent<CharacterController>().enabled = true;
 				//pauseManager.SetActive(false);
 				paused = false;
 			}
