@@ -22,12 +22,17 @@ public class PauseGame : MonoBehaviour
 		if(Input.GetKeyDown(KeyCode.Escape) || Input.GetMouseButtonDown(2)){
 			if(paused){
 				if(Input.GetKeyDown(KeyCode.Escape) || Input.GetMouseButtonDown(2)){
+					paused = false;
+					Cursor.lockState = CursorLockMode.None;
+					Cursor.visible = true;
 					SceneManager.LoadScene(0);
 				}
 			}
 			if(!paused){
 				toDestroy = Instantiate(myPrefab, new Vector3(0, 0, 0), Quaternion.identity);
 				player.GetComponent<CharacterController>().enabled = false;
+				Cursor.lockState = CursorLockMode.None;
+				Cursor.visible = true;
 				//pauseManager.SetActive(true);
 				paused = true;
 			}
@@ -35,10 +40,10 @@ public class PauseGame : MonoBehaviour
 		
 		if(Input.GetKeyDown(KeyCode.Space)){
 			if(paused){
-				Destroy(toDestroy);
 				player.GetComponent<CharacterController>().enabled = true;
 				//pauseManager.SetActive(false);
 				paused = false;
+				Destroy(toDestroy);
 			}
 		}
     }
