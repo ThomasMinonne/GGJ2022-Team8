@@ -5895,7 +5895,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fcaeaf79951127448d2dda75590a780, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeRemaining: 40
+  timeRemaining: 95
   timerIsRunning: 0
   timeText: {fileID: 1202466084}
   death: {fileID: 1564888998}
